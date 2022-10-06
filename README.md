@@ -54,7 +54,7 @@ To evaluate a trained model on NuScenes:
 
 ### Pretrained weights
 
-You can the pretrained weights from the releases of this repository or the links below.
+You can download the pretrained weights from the releases of this repository or the links below.
 
 [Normal setting weight](https://github.com/wayveai/fiery/releases/download/v1.0/stretchbev.ckpt)
 
