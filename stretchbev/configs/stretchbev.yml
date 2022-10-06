@@ -1,0 +1,28 @@
+TAG: 'baseline'
+
+GPUS: [0, 1, 2, 3]
+
+BATCHSIZE: 2
+PRECISION: 16
+
+TIME_RECEPTIVE_FIELD: 3
+N_FUTURE_FRAMES: 4
+
+EPOCHS: 20
+
+MODEL:
+  BN_MOMENTUM: 0.05
+  
+
+PRETRAINED:
+   LOAD_WEIGHTS: True
+   PATH: './static_lift_splat_setting.ckpt'
+  
+
+INSTANCE_FLOW:
+  ENABLED: True
+
+OPTIMIZER:
+  LR: 1e-4
+
+N_WORKERS: 4
